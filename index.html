@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-200 min-h-screen flex flex-col items-center">
+    <!-- Heading -->
+    <h1 class="text-3xl font-bold mt-10 mb-8">Temperature converter</h1>
+
+    <!-- Green Box -->
+    <div class="bg-teal-500 w-[700px] p-10 flex justify-around rounded">
+      <!-- Celsius -->
+      <div class="text-center">
+        <label class="text-lg text-black capitalize">Celsius</label><br />
+        <input
+          type="number"
+          value="0"
+          id="cel"
+          class="mt-3 w-48 p-2 text-center text-xl font-semibold bg-gray-100 outline-none"
+        />
+      </div>
+
+      <!-- Fahrenheit -->
+      <div class="text-center">
+        <label class="text-lg text-black capitalize">Fahrenheit</label><br />
+        <input
+          type="number"
+          value="32"
+          id="fer"
+          class="mt-3 w-48 p-2 text-center text-xl font-semibold bg-gray-100 outline-none"
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
